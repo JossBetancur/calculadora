@@ -1,4 +1,5 @@
 # calculadora.py
+#Version mejorada
 # Script básico para operaciones matemáticas
 numero_1 = float(input("Primer número: "))
 numero_2 = float(input("Segundo número: "))
@@ -15,8 +16,8 @@ elif operacion == '*':
 
 elif operacion == '/':
     if numero_2 != 0:
-        print("Resultado:", numero_1 / numero_2)
+        print("Resultado de la operacion:", numero_1 / numero_2)
     else:
         print("Error: no se puede dividir por cero.")
 else:
-    print("Operación no validas.")
+    print("Operacion no valida.")
